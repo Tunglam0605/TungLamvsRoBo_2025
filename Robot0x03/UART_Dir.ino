@@ -9,8 +9,8 @@
   void LuiTx()   { SetDirection(UartmotorMotionControl.LuiUart); TangtocUart(); }
   void PhaiTx()   { uint8_t d[4]={1,1,1,1}; SetDirection(d); TangtocUart2(); }
   void TraiTx()   { uint8_t d[4]={0,0,0,0}; SetDirection(d); TangtocUart2(); }
-  void N_TraiTx() { uint8_t d[4]={1,1,0,0}; SetDirection(d); TangtocUart(); }
-  void N_PhaiTx() { uint8_t d[4]={0,0,1,1}; SetDirection(d); TangtocUart(); }
+  void N_PhaiTx() { uint8_t d[4]={1,1,0,0}; SetDirection(d); TangtocUart(); }
+  void N_TraiTx() { uint8_t d[4]={0,0,1,1}; SetDirection(d); TangtocUart(); }
 
   // Đi quành
   void LuiTx2()    { SetDirection(UartmotorMotionControl.LuiUart); TangtocUart4(); }
